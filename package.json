@@ -1,0 +1,17 @@
+{
+  "name": "@aymandev/pausabletimers",
+  "version": "1.0.0",
+  "description": "Timers that can be paused and resumed unlike default setTimeout and setInterval",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "timers",
+    "pause",
+    "inverval",
+    "timeout"
+  ],
+  "author": "AymanDev",
+  "license": "Apache-2.0"
+}
