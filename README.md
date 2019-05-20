@@ -1,6 +1,10 @@
 # PausableTimers
 
-
+##Getting Started
+### Installation 
+```sh
+npm install pausabletimers --save
+```
 
 ### How to use this timers?
 Almost same as default `setTimeout` and `setInterval`.
