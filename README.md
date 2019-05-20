@@ -1,9 +1,10 @@
 # PausableTimers
+[![Build Status](https://img.shields.io/travis/AymanDev/PausableTimers.svg?style=for-the-badge)](https://travis-ci.org/AymanDev/PausableTimers) [![Repo Size](https://img.shields.io/github/repo-size/AymanDev/PausableTimers.svg?style=for-the-badge)](https://github.com/AymanDev/PausableTimers) ![License](https://img.shields.io/github/license/aymandev/pausabletimers.svg?style=for-the-badge) [![npm](https://img.shields.io/npm/v/@aymandev/pausabletimers.svg?style=for-the-badge)](https://www.npmjs.com/package/@aymandev/pausabletimers)
 
-##Getting Started
+## Getting Started
 ### Installation 
 ```sh
-npm install pausabletimers --save
+npm install @aymandev/pausabletimers
 ```
 
 ### How to use this timers?
