@@ -2,9 +2,11 @@
   "name": "@aymandev/pausabletimers",
   "version": "1.0.0",
   "description": "Timers that can be paused and resumed unlike default setTimeout and setInterval",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node ./index.ts",
+    "build": "tsc"
   },
   "keywords": [
     "timers",
@@ -13,5 +15,10 @@
     "timeout"
   ],
   "author": "AymanDev",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {}
 }
