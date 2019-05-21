@@ -1,6 +1,6 @@
 {
   "name": "@aymandev/pausabletimers",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Timers that can be paused and resumed unlike default setTimeout and setInterval",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

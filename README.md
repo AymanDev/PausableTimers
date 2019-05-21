@@ -26,6 +26,11 @@ Just have to call method from timer:
 timer.pauseTimer();
 ```
 
+Also you can pause timer for N milliseconds:
+```js
+timer.pauseTimer(3000); // Timer will unpause after 3 seconds
+```
+
 ### How to unpause timer?
 Just have to call method from timer:
 ```js

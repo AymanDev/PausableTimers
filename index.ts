@@ -40,11 +40,15 @@ export class PausableTimer {
     }
   }
 
-  pauseTimer() {
+  pauseTimer(unpauseTime?: number) {
     if (this.timer !== null) {
       const rightNow = Date.now();
       this.leftTime = this.endTime - rightNow;
       clearTimeout(this.timer);
+    }
+
+    if (typeof unpauseTime !== "undefined") {
+      setTimeout(() => this.startTimer(), unpauseTime);
     }
   }
 }
@@ -60,5 +64,3 @@ export function setPausableInterval(callback: Function, time: number) {
   timer.startTimer();
   return timer;
 }
-
-
